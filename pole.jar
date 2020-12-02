@@ -1,12 +1,17 @@
-//podnoszenie do kwadratu RRS
-#include <iostream> //
-double wynik, liczba; // double - liczba zmiennoprzecinkowa
-int main()
-{
-    using namespace std;
-    cout << "Podaj liczbę: ";
-    cin >> liczba;
-    wynik = liczba*liczba;
-        cout << "liczba " << liczba << " podniesiona do kwadratu wynosi " << wynik << endl;
-    return wynik;
+package pl.devprog.przyklady.matematyka;
+ 
+import java.util.Scanner;
+ 
+/**
+ * @author devprog.pl
+ */
+public class PoleKwadratu {
+ 
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Wprowadź długość boku kwadratu: ");
+        int dlugoscBoku = input.nextInt();
+        long wynik = dlugoscBoku * dlugoscBoku;
+        System.out.printf("Pole kwadratu o boku = %d, wynosi = %d", dlugoscBoku, wynik);
+    }
 }
