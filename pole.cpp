@@ -1,6 +1,6 @@
-//podnoszenie do kwadratu RRS
-#include <iostream> //
-double wynik, liczba; // double - liczba zmiennoprzecinkowa
+
+#include <iostream> 
+double wynik, liczba; //! double - liczba zmiennoprzecinkowa//!\
 int main()
 {
     using namespace std;
